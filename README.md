@@ -1,7 +1,8 @@
-**Single-cell-atlas-of-the-human-brain-vasculature-across-development-adulthood-and-disease**
-DOI: 10.1038/s41586-024-07493-y
+# **Single-cell-atlas-of-the-human-brain-vasculature-across-development-adulthood-and-disease**
+**Publicaiton link:**
+**DOI: 10.1038/s41586-024-07493-y**
 
-**Abstract**
+## **Abstract**
 A broad range of brain pathologies critically relies on the vasculature, and cerebrovascular disease is a leading cause of death worldwide. 
 However, the cellular and molecular architecture of the human brain vasculature remains incompletely understood. 
 Here, we performed single-cell RNA sequencing of 606,380 freshly isolated endothelial, perivascular and other tissue-derived cells from 117 samples, 
@@ -13,7 +14,7 @@ of CNS endothelial cells. Cell-cell interaction analyses predict numerous endoth
 thereby unraveling a central role for the endothelium within brain neurovascular unit signaling networks. Our single-cell brain atlas provides insight into the molecular architecture and
 heterogeneity of the developing, adult/control and diseased human brain vasculature and serves as a powerful reference for future studies.
 
-**Methods:**
+## **Methods**
 **Isolation of FACS-sorted human fetal and adult endothelial cells and of unsorted human fetal and adult endothelial and perivascular cells for single cell RNA-seq**
 Endothelial cells were isolated from human fetal and adult tissues using tissue digestion and subsequent CD31 + / CD45- FACS sorting whereas human endothelial and perivascular cells (all
 cells) were isolated from the unsorted fraction. Briefly, both fetal and adult tissues were quickly minced in a petri dish on ice, using two surgical blades. For CD31+ / CD45- FACS sorting, a
@@ -32,7 +33,31 @@ singlets were selected for using a forward scatter-area (FSC-A)/ FSC-height (FSC
 marker CD31 positivity and negative selection for the brain microglia and macrophages marker CD45, whereas unsorted endothelial and perivascular cells were obtained from the SYTOXTM
 blue- fraction. Cells were sorted by a FACS Aria III (BD Bioscience) sorter using the four-way purity sorting mode directly in EGM2 medium (#CC-3162, Lonza, Basel, Switzerland).
 
+### GEO: 
+All data (raw and processed) is accessible via the accession number GSE256493 (https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE256493)
+
+### Interactive websites for data visulaization and download are available at:
+- https://waelchli-lab-human-brain-vasculature-atlas.ethz.ch
+- https://brain-vasc.cells.ucsc.edu
+- https://cellxgene.cziscience.com/collections/c95ca269-68a7-47c5-82db-da227f31b598
+
+### Download links: 
+- The generated Seurat objects of FACS-sorted (CD31+/CD45-) endothelial cells for the individual entities can be downloaded from: https://doi.org/10.5281/zenodo.10058183
+- The generated Seurat objects of FACS-sorted (CD31+/CD45-) endothelial cells for the the overall merges of entities can be downloaded from: https://doi.org/10.5281/zenodo.10057779
+- The generated Seurat objects of unsorted endothelial and perivascular cells for individual entities can be downloaded from: https ://doi.org/10.5281/zenodo.10058371
+- The generated Seurat objects of unsorted endothelial and perivascular cells for the overall merges of entities can be downloaded from: https://doi.org/10.5281/zenodo.10058563
+- The generated Monocle 3 CDS pseudotime objects of FACS-sorted (CD31+/CD45-) endothelial cells can be downloaded from: https://doi.org/10.5281/zenodo.10058766
+- The generated diffusion map objects of FACS-sorted (CD31+/CD45-) endothelial cells can be downloaded from: https://doi.org/10.5281/zenodo.10060876
+- The generated RNA velocity objects of FACS-sorted (CD31+/CD45-) endothelial cells of individual pathological entities can be downloaded from: https://doi.org/10.5281/zenodo.10065659
+- The generated RNA velocity objects of FACS-sorted (CD31+/CD45-) endothelial cells of the fetal and adult/control brains from: https://doi.org/10.5281/zenodo.10066390
+- The generated RNA velocity objects of FACS-sorted (CD31+/CD45-) endothelial cells of the overall merge of brain tumors from: https://doi.org/10.5281/zenodo.10066538
+- The generated RNA velocity objects of FACS-sorted (CD31+/CD45-) endothelial cells of the overall merge of pathological entities from: https://doi.org/10.5281/zenodo.10066703
 
 
+
+
+
+
+##### created by: Moheb Ghobrial
 
 
